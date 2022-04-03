@@ -16,7 +16,7 @@ class SampleprojectApplicationTests {
 
 	@Test
 	void testArmstrongNumberTrue() {
-		assertTrue(SampleprojectApplication.isArmStrongNumber(153));
+		assertTrue(SampleprojectApplication.isArmStrongNumber(1));
 	}
 
 }
