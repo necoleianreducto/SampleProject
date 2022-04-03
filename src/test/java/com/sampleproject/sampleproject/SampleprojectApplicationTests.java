@@ -30,4 +30,9 @@ class SampleprojectApplicationTests {
 		assertEquals(4,SampleprojectApplication.addNumber(2,2));
 	}
 
+	@Test
+	void testArmstrongNumberFalse1() {
+		assertFalse(SampleprojectApplication.isArmStrongNumber(4));
+	}
+
 }
