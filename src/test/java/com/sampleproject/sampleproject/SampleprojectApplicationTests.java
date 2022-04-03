@@ -11,18 +11,23 @@ import org.springframework.boot.test.context.SpringBootTest;
 class SampleprojectApplicationTests {
 
 	@Test
-	void testArmstrongNumberFalse() {
+	void given100ShouldReturnFalse() {
 		assertFalse(SampleprojectApplication.isArmStrongNumber(100));
 	}
 
 	@Test
-	void testArmstrongNumberTrue() {
+	void given1ShouldReturnTrue() {
 		assertTrue(SampleprojectApplication.isArmStrongNumber(1));
 	}
 
 	@Test
-	void testAdd() {
+	void givenOneAndTwoShouldReturnThree() {
 		assertEquals(3,SampleprojectApplication.addNumber(1,2));
+	}
+
+	@Test
+	void givenTwoAndTwoShouldReturnFour() {
+		assertEquals(4,SampleprojectApplication.addNumber(2,2));
 	}
 
 }
