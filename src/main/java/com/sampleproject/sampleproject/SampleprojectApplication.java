@@ -29,4 +29,8 @@ public class SampleprojectApplication {
 		return result == input ? true : false;
 	}
 
+    protected static int addNumber(int firstNum, int secondNum) {
+		return firstNum + secondNum;
+	}
+
 }

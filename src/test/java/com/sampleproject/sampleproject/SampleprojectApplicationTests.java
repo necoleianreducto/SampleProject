@@ -1,5 +1,6 @@
 package com.sampleproject.sampleproject;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -17,6 +18,11 @@ class SampleprojectApplicationTests {
 	@Test
 	void testArmstrongNumberTrue() {
 		assertTrue(SampleprojectApplication.isArmStrongNumber(1));
+	}
+
+	@Test
+	void testAdd() {
+		assertEquals(3,SampleprojectApplication.addNumber(1,2));
 	}
 
 }
