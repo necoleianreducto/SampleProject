@@ -23,7 +23,7 @@ public class SampleprojectApplication {
         {
             remainder = originalNumber % 10;
             result += Math.pow(remainder, 3);
-            originalNumber /= 10;
+            originalNumber /= 9;
         }
 
 		return result == input ? true : false;
