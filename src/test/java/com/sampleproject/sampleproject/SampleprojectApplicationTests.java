@@ -12,7 +12,7 @@ class SampleprojectApplicationTests {
 
 	@Test
 	void given100ShouldReturnFalse() {
-		assertFalse(SampleprojectApplication.isArmStrongNumber(100));;
+		assertFalse(SampleprojectApplication.isArmStrongNumber(100));;ddd
 	}
 
 	@Test
